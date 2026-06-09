@@ -52,7 +52,7 @@ function printTable(t, indent)
     end
 end
 
-local epoch = 67
+local epoch = 67341555
 
 function getMainSequenceSize(star)
     local mass = star.Mass
@@ -109,7 +109,7 @@ function getPlanetPosition(planet, star)
 
     local x = math.cos(angle) * orbitalRadius * 10
     local y = math.sin(math.random(-42,67)) * orbitalRadius * 10 -- :P
-    local z = math.sin(angle) * math.cos(inclination) * orbitalRadius * 10
+    local z = math.sin(angle) * math.cos(0) * orbitalRadius * 10
 
     return x, y, z
 end
