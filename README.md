@@ -1,3 +1,6 @@
+[READ]: I accidentally used an improper license because I picked a random one
+I understand that the assets were not mine to distribute and they are now removed
+
 Originally served to be an alternative fun project of a star map from a game I used to play called Space Pioneers.
 
 I want to clarify that the data files are randomly generated.
